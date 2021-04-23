@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* inizio body */
+.container{
+    padding: 0 20px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+/* inizio header */
+header{
+    height: 60px;
+    margin-top: 10px;
+    background-color:#E579E6;
+}
+/* inizio main */
+.sezione1{
+    height:400px;
+    margin-top: 20px;
+    background-image: url(/img/banner.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+h3{
+    font-size: 20px;
+    color:#F6F7F8;
+    padding-top: 250px;
+    padding-left: 60px;
+}
+p{
+    color: #D9DDEF;
+    font-size:15px;
+    padding-left: 60px;
+}
+.sezione2{
+    height: 400px;
+    
+    margin-bottom:20px;
+}
+.sezione2::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+/* vari float */
+/* main */
+.top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    background-color:white;
+}
+h1{
+    font-weight: 900;
+    font-size: 25px;
+}
+span{
+    font-size: 10px;
+    color: #B8B8B8;
+
+}
+.right{
+    height: 100%;
+    width: 25%;
+   
+}
+.left{
+    height: 100%;
+    width: 25%;
+    
+}
+.imageleft{
+    background-image: url(/img/yoga.png);
+    background-size: 100% 100%;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+.imageright{
+    background-image: url(/img/yoga.png);
+    background-size: 100% 100%;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+.imagecenter{
+    background-image: url(/img/yoga.png);
+    background-size: 100% 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.sezione2 p{
+    padding-left: 3px;
+    font-size: 20px;
+    color: #B8B8B8;
+    font-weight: 300;
+}
+
+
+.float.center{
+    margin: 0 10px;
+    width: calc(50% - 20px);
+}
+.float{
+    float:left;
+    height: 80%;
+    margin-bottom: 20px;
+
+}
+/* fine main */
+/* inizio footer */
+footer{
+    height:50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
+    
+}
+footer span{
+    color: black;
+}
+footer span::after{
+    content: '\2665';
+    color: red;
+    font-size: 30px;
+
+    
+}
+/* fine float */
+
